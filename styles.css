@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b5ebe4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300vh;
+  color: #333;
+}
+
+#form-container {
+  background-color: #9cb0e7;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(209, 31, 31, 0.1);
+  width: 100%;
+  max-width: 700px;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1em;
+  margin-bottom: 25px;
+  color: #ed1d1d;
+  font-weight:700;
+  text-transform: uppercase;
+  letter-spacing:1px ;
+}
+
+form section {
+  margin-bottom: 50px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #171717;
+  font-size: 30px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ed050d;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 35px;
+}
+
+form button {
+  padding: 20px 30px;
+  background-color: #b2309e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+form button:hover {
+  background-color: #e4e742;
+}
+
+#resume-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  display: none;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h3 {
+  cursor: pointer;
+  font-family:  100px;;
+  color: #007bff;
+  border-bottom: 10px solid #ddd;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 40px;
+  color:#fff
+}
+.resume-section p {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.resume-section p.editable {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border: 1px dashed #007bff;
+  }
+  
+  .resume-section p:hover {
+    background-color: #f0f8ff;
+    border-color: #4CAF50;
+  }
+
+button#edit-button {
+  padding: 12px 20px;
+  background-color: #f1c232;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+button#edit-button:hover {
+  background-color: #0de0d9;
+}
+#resume-output{
+    font-size: 1.1em;
+  }
+
